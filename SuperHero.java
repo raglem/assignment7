@@ -58,6 +58,10 @@ public class SuperHero extends Person {
     public String getCatchphrase(){
         return catchphrase;
     }
+
+    public String getSuperHeroInfo(){
+        return superName + ": " + superPower;
+    }
     
     public String toString(){
         String nameString = "Name: " + this.getName() + ", ";
